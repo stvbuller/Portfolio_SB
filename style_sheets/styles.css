@@ -1,5 +1,5 @@
 html {
-background: #ACD0EF; 
+background: #FFD59D; 
 }
 
 /*font-family: 'Fira Sans', sans-serif;*/
@@ -24,6 +24,14 @@ h4.employers {
   margin-bottom: 0;
 }
 
+ul.education{
+  list-style-type:none;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Fira Sans', sans-serif;
+}
+
 ul.employer_info{
   list-style-type:none;
   text-align: left;
@@ -32,17 +40,25 @@ ul.employer_info{
   font-family: 'Fira Sans', sans-serif;
 }
 
+article{
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 a:link {
-  color: blue;
+  color: #0646B2;
 }
 a:visited{
-  color: #33CC33;
+  color: #416EF7;
 }
 
 p{
   text-align: center;
   font-family: 'Fira Sans', sans-serif;
 }
+
 
 p.employers { 
   color: black;
@@ -56,15 +72,11 @@ p.employers {
 p.about_info{
   text-indent: 20px;
   text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
   font-family: 'Fira Sans', sans-serif;
 }
 
-p.education_info{
-  text-align: center;
-  font-family: 'Fira Sans', sans-serif;
-}
 
 p.career_obj_info{
   text-align: center;
@@ -88,5 +100,11 @@ p.projects_info{
 
 #Top {
   text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#blog_to_index{
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
 }
 
