@@ -1,56 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href='https://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style_sheets/styles.css">
   <title>Steven Buller's Portfolio</title>
   <meta charset="UTF-8">
   <meta name="author" content="Steven Buller">
   <meta name="keywords" content="Steven Buller, Web Developer, New Jersey, Full Stack, HTML, CSS3">
 </head>
 <body>
-  <h1 id="Home" align="center">Steven Buller</h1>
+  <h1 class="home" id="Home">Steven Buller</h1>
   
-  <nav align="center">
+  <nav>
     <a href="#About">About</a>
     <a href="#Education">Education</a>
-    <a href="#Career Objectives">Career Objectives</a>
-    <a href="#Contact me">Contact</a>
+    <a href="#Career_Objectives">Career Objectives</a>
+    <a href="#Contact_me">Contact</a>
     <a href="#Skills">Skills</a>
     <a href="#Employers">Employers</a>
-    <a href="#Personal Interests">Interests</a>
+    <a href="#Personal_Interests">Interests</a>
     <a href="#Projects">Projects</a>
-    <a href="#Social Media">Social Media</a>
+    <a href="#Social_Media">Social Media</a>
+    <a href="#Contact_me">Contact</a>
   </nav>
 
   <div id="About">
     <h3>About</h3>
-      <p>
-       <pre>
+      <p class="about_info">
       I'm a currently studying web development at Rutgers Coding Bootcamp.
       I have over 11 years of experience in the financial industry. First as a commodities
       futures broker and then on the operations side. As a broker I serviced institutional clients.
-      On the operations side I worked at the largest privately owned commodities brokerage house at the time.
-      Prior to that I worked a as a tech in one of New York's best audio recording studios. 
-      </pre>
+      On the operations side I worked at the largest privately owned commodities brokerage house at the time. Prior to that I worked a as a tech in one of New York's finest audio recording studios. 
     </p>
   </div>
 
   <div id="Education">
     <h3>Education</h3>
-      <p>
-        <pre>
-        BA,   Economics,   University College of Rutgers University,   New Brunswick, NJ   1988
+      <p class="education_info">
+        BA,   Economics,   University College of Rutgers University,   New Brunswick, NJ   1988<br>
         Institute of Audio Research, New York, New York, 1981
-        </pre>
       </p>
   </div>
 
-  </div id="Career Objectives">
+  </div id="Career_Objectives">
     <h3>Career Objective</h3>
-    <p>I am interested in continuing to improve my skills as a full stack developer.</p>
+    <p class="career_obj_info">I am interested in continuing to improve my skills as a full stack developer.</p>
   <div>
 
-  <div id="Contact me">
-    <h3>Contact me</h3>
+  <div id="Contact_me">
+    <h3>Contact me: stev.buller@gmail.com</h3>
   </div>
 
   <div align="center">
@@ -59,61 +57,54 @@
 
   <div id="Skills">
     <h3>Skills</h3>
-    <p>Course work includes HTML5, CSS3, Javascript, JQuery, Node.js and Database Theory</p>
-    <p>Transferable skills include research, analyzing, problem solving, managing finance, reducing costs, and interacting at all levels including C-level executives.</p>
+    <p class="skills_info">Course work includes HTML5, CSS3, Javascript, JQuery, Node.js and Database Theory</p>
   </div>
 
   <div id="Employers">
     <h3>Previous Employers</h3>
-    <p>
-      <pre>PG & E Energy Trading / Virtual Credit Services  2000-2003
-FINANCIAL OPERATIONS
-* Worked with the CRO to set up a support system for the trading desk of a division of 
-  PG&E National Energy Group.
-
-
-Refco/A. M. Haut Commodities Inc.  1998-2000
-CONTROLLER
-* Prepared comprehensive monthly financial reports, daily P/L's, and monitored
-  payables/receivables for 4 companies incorporating 14 people with annual  
-  gross revenue of over $9 million.
-* Worked with CFO and accounting staff in the consolidation of corporate  
-  financials and the transition to new accounting software.
-* Worked with software developers to internally redevelop a trade enty and
-  verification application to replace one which was not Y2K compliant.
-
-A. M. Haut Commodities Inc.  1988-1998
-FINANCIAL ADMINISTRATOR / VICE PRESIDENT
-* Worked with a major financial company to analyze business/financial processes.
-* Handled trade verification, derivative valuations, production of profit and loss 
-  statements for all trading accounts, the orchestration of margin calls, and the settlement payments between treasury departments.
-* Created specifications for a trade administration application, supervised 
-  programming consultants through its development. 
-* Acted as a liaison with the Compliance Department to update operations manuals, 
-  and to avert violations of NFA regulations.
-
-BROKER / VICE PRESIDENT
-* Serviced and developed institutional investment clients.
-
-Power Station Inc. 1982-1988
-TECHNICIAN
-* Responsible for the maintenance and troubleshooting of professional audio 
-  recording equipment, keeping studio downtime to a minimum.
-      </pre>
-    </p>
+      <ul class="employer_info">
+        <h4 class="employers"><li>PG & E Energy Trading / Virtual Credit Services</li>  
+        <li>FINANCIAL OPERATIONS</li></h4>
+        <li><p class="employers">Worked with the CRO to set up a support system for the trading desk   of a division of PG&E National Energy Group.</p></li>
+      </ul>
+      <ul class="employer_info">
+        <h4 class="employers"><li>Refco/A. M. Haut Commodities Inc.</li>  
+        <li>CONTROLLER</h4></li>
+        <li><p class="employers"> Prepared comprehensive monthly financial reports, daily P/L's, and monitored payables/receivables for 4 companies incorporating 14 people with annual  gross revenue of over $9 million.</p></li>
+        <li><p class="employers"> Worked with CFO and accounting staff in the consolidation of corporate financials and the transition to new accounting software.</p></li>
+        <li><p class="employers"> Worked with software developers to internally redevelop a trade enty and verification application to replace one which was not Y2K compliant.</p></li>
+        </ul>
+        <ul class="employer_info">  
+          <h4 class="employers"><li>A. M. Haut Commodities Inc.</li>  
+          <li>FINANCIAL ADMINISTRATOR / VICE PRESIDENT</li></h4>
+          <li><p class="employers">Worked with a major financial company to analyze business/financial processes.</p></li>
+          <li><p class="employers">Handled trade verification, derivative valuations, production of profit and loss statements for all trading accounts, the orchestration of margin calls, and the settlement payments between treasury departments.</p></li>
+          <li><p class="employers">Created specifications for a trade administration application, supervised 
+          programming consultants through its development.</p></li>
+          <li><p class="employers">Acted as a liaison with the Compliance Department to update operations manuals, and to avert violations of NFA regulations.</p></li>
+        </ul>
+        <ul class="employer_info">
+          <h4 class="employers"><li>BROKER / VICE PRESIDENT</li></h4>
+          <li><p class="employers">Serviced and developed institutional investment clients.</p></li>
+        </ul>
+        <ul class="employer_info">
+        <h4 class="employers"><li>Power Station Inc.</li>
+        <li>TECHNICIAN</li></h4>
+        <li><p class="employers">Responsible for the maintenance and troubleshooting of professional audio recording equipment, keeping studio downtime to a minimum.</p></li>
+      </ul>
   </div> 
 
-  <div id="Personal Interests">
+  <div id="Personal_Interests">
     <h3>Personal Interests</h3>
-    <p>bicycling, music, photography, scuba diving</p>
+    <p class="personal_interests_info">bicycling, music, photography, scuba diving</p>
   </div>
 
  <div id="Projects">
     <h3>Projects</h3>
-    <p>Constantly developing my Portfolio page</p>
+    <p class="projects_info">Constantly developing my Portfolio page</p>
   </div>
 
-  <div id="Social Media">
+  <div id="Social_Media">
     <h3>Social Media</h3>
     <nav>
       <a href="https://www.linkedin.com/pub/steven-buller/77/469/363"target="_blank">Linkedin</a>
@@ -121,9 +112,10 @@ TECHNICIAN
       <a href="https://github.com/stvbuller"target="_blank">GitHub</a>
       <a href="blog.html"target="_blank">My Blog</a>
      </nav>   
-  </div> 
+  </div>
+
   <br>
-  <a href="#Home">Home</a>
+  <p id="Top>"><a href="#Home">Home</a></p>
   <br>
   <br>
 </body>

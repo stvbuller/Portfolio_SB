@@ -1,0 +1,92 @@
+html {
+background: #ACD0EF; 
+}
+
+/*font-family: 'Fira Sans', sans-serif;*/
+
+nav {
+  text-align: center;
+}
+
+h1.home {
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h3 {
+  color: black;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+}
+
+h4.employers {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul.employer_info{
+  list-style-type:none;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+a:link {
+  color: blue;
+}
+a:visited{
+  color: #33CC33;
+}
+
+p{
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+p.employers { 
+  color: black;
+  text-indent: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+p.about_info{
+  text-indent: 20px;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+p.education_info{
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+p.career_obj_info{
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+p.skills_info{
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+ }
+
+p.personal_interests_info{
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+p.projects_info{
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#Top {
+  text-align: center;
+}
+
