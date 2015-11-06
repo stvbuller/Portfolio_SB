@@ -11,7 +11,11 @@ a:visited{
   color: #416EF7;
 }
 
-header, nav, section, aside, footer {
+header {
+  border: 2px solid fuchsia;
+}
+
+nav, section, aside, footer {
   border: 2px solid black;
   margin: 5px;
 }
@@ -37,26 +41,38 @@ nav {
 }
 
 section {
+  border-color: blue;
   height: 100%;
   padding: 10px;
 }
 
-.section1 {
+.bicycles1 {
   width: 45%;footer
 }
 
-.section2 {
-  width: 45%;
-  top: -175px;
-  margin-left: 50%;
-}
-
-.section3 {
+.bicycle-types2 {
   width: 45%;
 }
 
-aside {
-  width: 75%;
+.frame-materials3 {
+  width: 45%;
+}
+
+.safety-aside1 {
+  border-color: green;
+  width: 45%;
   padding: 10px;
+  position: relative;
+  margin-left: 50%;
+  top: -580px;
 }
 
+footer {
+  width: 80%;
+  height: 50px;
+  margin-left: 10%;
+  text-align: center;
+  padding-bottom: 30px;
+  position: relative;
+  top: -550px;
+}
