@@ -1,0 +1,62 @@
+body {
+  background: #FFD59D;
+  font-family: "Helvetica";
+}
+
+a:link {
+  color: #0646B2;
+}
+
+a:visited{
+  color: #416EF7;
+}
+
+header, nav, section, aside, footer {
+  border: 2px solid black;
+  margin: 5px;
+}
+
+p {
+  text-indent: 20px;
+}
+
+header, footer {
+  width: 30%;
+  height: 50px;
+  margin-left: 30%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+nav {
+  width: 75%;
+  height: 50px;
+  margin-left: 15%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+section {
+  height: 100%;
+  padding: 10px;
+}
+
+.section1 {
+  width: 45%;footer
+}
+
+.section2 {
+  width: 45%;
+  top: -175px;
+  margin-left: 50%;
+}
+
+.section3 {
+  width: 45%;
+}
+
+aside {
+  width: 75%;
+  padding: 10px;
+}
+
