@@ -1,6 +1,6 @@
 
 
-/*font-family: 'Fira Sans', sans-serif;*/
+font-family: 'Verdana', sans-serif;
 
 nav {
   text-align: center;
@@ -8,12 +8,12 @@ nav {
 
 h1.home {
   text-align: center;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
 }
 
 h3 {
   color: black;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
   text-align: center;
 }
 
@@ -27,7 +27,7 @@ ul.education{
   text-align: center;
   margin-left: 15%;
   margin-right: 15%;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
 }
 
 ul.employer_info{
@@ -35,12 +35,12 @@ ul.employer_info{
   text-align: left;
   margin-left: 20%;
   margin-right: 20%;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
 }
 
 article{
   text-align: left;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -54,7 +54,7 @@ a:visited{
 
 p{
   text-align: center;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
 }
 
 
@@ -64,7 +64,7 @@ p.employers {
   margin-top: 0;
   margin-bottom: 0;
   text-align: left;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
 }
 
 p.about_info{
@@ -72,37 +72,40 @@ p.about_info{
   text-align: left;
   margin-left: 15%;
   margin-right: 15%;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdanda', sans-serif;
 }
 
 
 p.career_obj_info{
   text-align: center;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
 }
 
 p.skills_info{
   text-align: center;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
  }
 
 p.personal_interests_info{
   text-align: center;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
 }
 
 p.projects_info{
   text-align: center;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
 }
 
 #Top {
   text-align: center;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
 }
 
 #blog_to_index{
   text-align: center;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Verdana', sans-serif;
 }
 
+.oldnav{
+  text-align: center
+}
