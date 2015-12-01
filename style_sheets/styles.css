@@ -22,7 +22,7 @@ h4.employers {
   margin-bottom: 0;
 }
 
-ul.education{
+ul.education {
   list-style-type:none;
   text-align: center;
   margin-left: 15%;
@@ -30,7 +30,7 @@ ul.education{
   font-family: 'Verdana', sans-serif;
 }
 
-ul.employer_info{
+ul.employer_info {
   list-style-type:none;
   text-align: left;
   margin-left: 20%;
@@ -38,7 +38,7 @@ ul.employer_info{
   font-family: 'Verdana', sans-serif;
 }
 
-article{
+article {
   text-align: left;
   font-family: 'Verdana', sans-serif;
   margin-left: 20%;
@@ -48,11 +48,11 @@ article{
 a:link {
   color: #0646B2;
 }
-a:visited{
+a:visited {
   color: #416EF7;
 }
 
-p{
+p {
   text-align: center;
   font-family: 'Verdana', sans-serif;
 }
@@ -67,7 +67,7 @@ p.employers {
   font-family: 'Verdana', sans-serif;
 }
 
-p.about_info{
+p.about_info {
   text-indent: 20px;
   text-align: left;
   margin-left: 15%;
@@ -76,22 +76,22 @@ p.about_info{
 }
 
 
-p.career_obj_info{
+p.career_obj_info {
   text-align: center;
   font-family: 'Verdana', sans-serif;
 }
 
-p.skills_info{
+p.skills_info {
   text-align: center;
   font-family: 'Verdana', sans-serif;
  }
 
-p.personal_interests_info{
+p.personal_interests_info {
   text-align: center;
   font-family: 'Verdana', sans-serif;
 }
 
-p.projects_info{
+p.projects_info {
   text-align: center;
   font-family: 'Verdana', sans-serif;
 }
@@ -101,11 +101,11 @@ p.projects_info{
   font-family: 'Verdana', sans-serif;
 }
 
-#blog_to_index{
+#blog_to_index {
   text-align: center;
   font-family: 'Verdana', sans-serif;
 }
 
-.oldnav{
+.oldnav {
   text-align: center
 }
