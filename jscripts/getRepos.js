@@ -1,10 +1,11 @@
 $(document).ready(function(){
   $.ajax({
-    type: "Get",
-    url: "https://api.github.com/users/jquery/repos",
+    type: "GET",
+    //url: "https://api.github.com/users/jquery/repos",
+    url: "https://api.github.com/users/stvbuller/repos",
     success: function(repos){
       for (var i = 0; i < repos.length; i++) {
-        var newListItem = buildListGroup(repos[i]);
+        var newListItem = createListGroup(repos[i]);
         $(".list-group").append(newListItem);
       }
     },    
@@ -13,7 +14,7 @@ $(document).ready(function(){
         }
   });
 
-  function buildListGroup(repoData){
+  function createListGroup(repoData){
     var commitsApiUrl = "https://api.github.com/repos/";
     commitsApiUrl += repoData.owner.login + "/";
     commitsApiUrl += repoData.name + "/commits";

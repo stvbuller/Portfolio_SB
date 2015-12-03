@@ -8,16 +8,16 @@ $(document).ready(function() {
       success: function(commits) {
         $("tbody").empty();
         for(var i = 0; i < commits.length; i++) {
-          $("tbody").append(buildTableRow(commits[i]));
+          $("tbody").append(createTableRow(commits[i]));
         }
-      }
+      },
     })
   });
 
 
-  function buildTableRow(commitData) {
+  function createTableRow(commitData) {
     var shaTd = $("<td>").append(commitData.sha);
-    var authorTd = $("<td>").append(commitData.author.login);
+    var authorTd = $("<td>").append(commitData.author);
     var messsageTd = $("<td>").append(commitData.commit.message);
     var dateTd = $("<td>").append(commitData.commit.author.date);
 
