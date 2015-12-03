@@ -1,17 +1,19 @@
-$document.ready(function () {
+$(document).ready(function() {
   $(".list-group").on("click", "a", function(e) {
     e.preventDefault();
 
     $.ajax({
-      type: "Get",
+      type: "GET",
       url: $(this).attr("href"),
       success: function(commits) {
         $("tbody").empty();
-        for (var i = 0; i < commits.length; i++) {
+        for(var i = 0; i < commits.length; i++) {
           $("tbody").append(buildTableRow(commits[i]));
         }
       }
+    })
   });
+
 
   function buildTableRow(commitData) {
     var shaTd = $("<td>").append(commitData.sha);
