@@ -2,15 +2,20 @@ $(document).ready(function(){
   $("#getRepos").on("click", "a", function(e) {
     e.preventDefault();
 
+    console.log($(this).html())
+
     $.ajax({
       type: "GET",
-      //url: "https://api.github.com/users/jquery/repos",
       url: "https://api.github.com/users/stvbuller/repos?sort='pushed'",
       success: function(repos){
         for (var i = 0; i < repos.length; i++) {
           var newListItem = createListGroup(repos[i]);
-          $(".list-group").append(newListItem);
-          //$(".list-group").addClass('hidden');
+          //if the link html == the name of the repo
+          //append the item to .list-group
+          console.log(repos[i].name)
+            //if ($(this).html() == repos[i].name)
+            $(".list-group").append(newListItem);
+            $("#repoHeader").removeClass('hidden');    
         }
       },    
         error: function(jqXHR, textStatus, errorThrown) {
