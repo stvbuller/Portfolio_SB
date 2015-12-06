@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".list-group").on("click", "a", function(e) {
+  $("#getCommits").on("click", "a", function(e) {
     e.preventDefault();
 
     $.ajax({
@@ -9,7 +9,7 @@ $(document).ready(function() {
         $("tbody").empty();
         for(var i = 0; i < commits.length; i++) {
           $("tbody").append(createTableRow(commits[i]));
-          //$("tbody").addClass('hidden');
+          $("thead").removeClass('hidden');
         }
       },
     })
@@ -33,7 +33,6 @@ $(document).ready(function() {
     
         
     return $("<tr>").append(commitLink)
-      .append(shaTd)
       .append(authorTd)
       .append(messsageTd)
       .append(dateTd);
