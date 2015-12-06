@@ -2,11 +2,12 @@ $(document).ready(function(){
   $.ajax({
     type: "GET",
     //url: "https://api.github.com/users/jquery/repos",
-    url: "https://api.github.com/users/stvbuller/repos",
+    url: "https://api.github.com/users/stvbuller/repos?sort='pushed'",
     success: function(repos){
       for (var i = 0; i < repos.length; i++) {
         var newListItem = createListGroup(repos[i]);
         $(".list-group").append(newListItem);
+        //$(".list-group").addClass('hidden');
       }
     },    
       error: function(jqXHR, textStatus, errorThrown) {
