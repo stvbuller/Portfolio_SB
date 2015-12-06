@@ -7,6 +7,7 @@ $(document).ready(function(){
       for (var i = 0; i < repos.length; i++) {
         var newListItem = createListGroup(repos[i]);
         $(".list-group").append(newListItem);
+        //$(".list-group").addClass('hidden');
       }
     },    
       error: function(jqXHR, textStatus, errorThrown) {
