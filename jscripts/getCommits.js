@@ -22,12 +22,9 @@ $(document).ready(function() {
     var messsageTd = $("<td>").append(commitData.commit.message);
     var dateTd = $("<td>").append(commitData.commit.author.date);
 
-    //the idea here is to create a link that displays commitData.url
+    //the idea here is to create a link that displays commitData.html_url
     //and links to the page for the commit on GitHub, this link is then
     //appended to the table row
-    // var commitUrl = "https://github.com/stvbuller/";
-    // commitUrl = commitUrl + //repo name + "/commit/"
-    // commitUrl += commitData.sha;
     var commitLink = $("<a>")
     //the url of the commit should be added to href attribute of the a tag
         .attr("href", commitData.html_url)
