@@ -2,8 +2,6 @@ $(document).ready(function(){
   $("#getRepos").on("click", "a", function(e) {
     e.preventDefault();
 
-    console.log($(this).text())
-
     $.ajax({
       type: "GET",
       url: "https://api.github.com/users/stvbuller/repos?sort='pushed'",
