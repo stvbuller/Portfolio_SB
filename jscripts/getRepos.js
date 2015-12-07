@@ -8,12 +8,11 @@ $(document).ready(function(){
       success: function(repos){
         for (var i = 0; i < repos.length; i++) {
           var newListItem = createListGroup(repos[i]);
-          //if the link html == the name of the repo
+          //if the link id == the name of the repo
           //append the item to .list-group
-          //console.log(repos[i].name)
-          //var repoName = repos[i].name;
-          //if ($(this).html() == repoName)
-            $(".list-group").append(newListItem);
+          //console.log(newListItem.text())
+          //if ($(this).text() == newListItem.text())
+            $(".list-group").append(newListItem);     
             $("#repoHeader").removeClass('hidden');     
         }
       },    
@@ -25,21 +24,15 @@ $(document).ready(function(){
 
 
   function createListGroup(repoData){
-    var commitsApiUrl = "https://api.github.com/repos/";
-    commitsApiUrl += repoData.owner.login + "/";
-    commitsApiUrl += repoData.name + "/commits";
+    var commitsGitHubUrl = "https://api.github.com/repos/";
+    commitsGitHubUrl += repoData.owner.login + "/";
+    commitsGitHubUrl += repoData.name + "/commits";
 
     var newLink = $("<a>")
-     .attr("href", commitsApiUrl)
+     .attr("href", commitsGitHubUrl)
      .addClass("list-group-item")
      .append(repoData.full_name);
 
     return newLink;
   }
-
-
-
-
-
-
 });
