@@ -2,7 +2,7 @@ $(document).ready(function(){
   $("#getRepos").on("click", "a", function(e) {
     e.preventDefault();
 
-    //console.log($(this).html())
+    console.log($(this).text())
 
     $.ajax({
       type: "GET",
@@ -13,9 +13,10 @@ $(document).ready(function(){
           //if the link html == the name of the repo
           //append the item to .list-group
           //console.log(repos[i].name)
-            //if ($(this).html() = repos[i].name)
-              $(".list-group").append(newListItem);
-              $("#repoHeader").removeClass('hidden');     
+          //var repoName = repos[i].name;
+          //if ($(this).html() == repoName)
+            $(".list-group").append(newListItem);
+            $("#repoHeader").removeClass('hidden');     
         }
       },    
         error: function(jqXHR, textStatus, errorThrown) {
