@@ -18,7 +18,7 @@ $(document).ready(function() {
 
   function createTableRow(commitData) {
     //var shaTd = $("<td>").append(commitData.sha);
-    var authorTd = $("<td>").append(commitData.author);
+    var authorTd = $("<td>").append(commitData.commit.author.name);
     var messsageTd = $("<td>").append(commitData.commit.message);
     var dateTd = $("<td>").append(commitData.commit.author.date);
 
